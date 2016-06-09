@@ -1,5 +1,9 @@
 == README
 
-*Ruby Version: 2.2.0
+This web application checks for users in a 100km or less radius from a point of origin coordinates and their coordinates. The information from each user comes from a txt file that has each line in JSON-format. It then shows only the users that fulfil this condition.
 
-*Rails Version: 4.2.0
+* Ruby Version: 2.2.0
+
+* Rails Version: 4.2.0
+
+* Added json gem (to permit JSON parse)

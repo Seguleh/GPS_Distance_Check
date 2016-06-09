@@ -1,0 +1,14 @@
+<% provide(:title, 'Only 100km or less!') %>
+
+<h1>All admitted for some food and drinks on the house!</h1>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2 class = "center"><u>Guest List:</u></h2>
+    <div class = "central-list col-md-4 col-md-offset-5">
+      <% @invited_users.each do |user| %>
+    	 <p><b>Name:</b> <%= user["name"] %> (<small><b>ID:</b> <%= user["user_id"] %></small>)</p>
+      <% end %>
+    </div>
+  </div>
+</div>
